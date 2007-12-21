@@ -9,6 +9,7 @@ License:	GPL
 Group:		Sound
 URL:		http://www.cs.man.ac.uk/~slavinp/cuegen.html
 Source:		http://www.cs.man.ac.uk/~slavinp/files/%{name}-%{version}.tar.bz2
+Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 CUEgen is a FLAC-compatible cuesheet generator for Linux. The
