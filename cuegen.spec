@@ -1,11 +1,11 @@
 %define	version	1.2.0
-%define release	%mkrel 3
+%define release	%mkrel 4
 
 Summary:	FLAC-compatible cuesheet generator for Linux
 Name:		cuegen
 Version:	%{version}
 Release:	%{release}
-License:	GPL
+License:	GPL+
 Group:		Sound
 URL:		http://www.cs.man.ac.uk/~slavinp/cuegen.html
 Source:		http://www.cs.man.ac.uk/~slavinp/files/%{name}-%{version}.tar.bz2
