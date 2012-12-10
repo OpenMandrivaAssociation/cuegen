@@ -42,3 +42,29 @@ rm -rf %{buildroot}
 %doc README
 %{_bindir}/*
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.2.0-5mdv2011.0
++ Revision: 617442
+- the mass rebuild of 2010.0 packages
+
+* Sun Jul 05 2009 Jérôme Brenier <incubusss@mandriva.org> 1.2.0-4mdv2010.0
++ Revision: 392407
+- fix license
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 1.2.0-3mdv2009.0
++ Revision: 243802
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 1.2.0-1mdv2008.1
++ Revision: 123537
+- kill re-definition of %%buildroot on Pixel's request
+- import cuegen
+
+
+* Thu Oct 27 2005 Abel Cheung <deaddog@mandriva.org> 1.2.0-1mdk
+- First Mandriva package
