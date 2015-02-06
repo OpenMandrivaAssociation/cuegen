@@ -1,5 +1,5 @@
 %define	version	1.2.0
-%define release	%mkrel 5
+%define release	6
 
 Summary:	FLAC-compatible cuesheet generator for Linux
 Name:		cuegen
