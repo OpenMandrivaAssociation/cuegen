@@ -10,6 +10,11 @@ Group:	Sound
 Url:		https://sourceforge.net/projects/cuegen/
 Source0:	https://sourceforge.net/projects/cuegen/files/%{name}.src.tar.gz
 BuildRequires:	lazarus >= 2.0.4
+BuildRequires:	pkconfig(cairo)
+BuildRequires:	pkconfig(glib-2.0)
+BuildRequires:	pkconfig(gtk-2.0)
+BuildRequires:	pkgconfig(pango)
+BuildRequires:	pkconfig(x11)
 
 %description
 CUEgen is a FLAC-compatible cuesheet generator for Linux. The FLAC format
