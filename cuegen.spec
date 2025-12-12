@@ -13,7 +13,7 @@ BuildRequires:	lazarus >= 2.0.4
 BuildRequires:	pkconfig(cairo)
 BuildRequires:	pkconfig(glib-2.0)
 BuildRequires:	pkconfig(gtk-2.0)
-BuildRequires:	pkgconfig(pango)
+BuildRequires:	pkconfig(pango)
 BuildRequires:	pkconfig(x11)
 
 %description
@@ -34,7 +34,7 @@ great use in archiving, transporting and burning FLAC-encoded audio files.
 #-----------------------------------------------------------------------------
 
 %prep
-%setup -qn %{version}
+%autosetup -p1 -n %{version}
 
 # Fix wrong perms
 chmod -x *.txt
